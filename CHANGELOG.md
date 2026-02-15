@@ -19,6 +19,7 @@ This changelog is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.
 - Format `tests/unit/endpoint_test.py` using black. (`#1792`)
 
 ### .github
+- Fixed Workflow Failure Notifier permissions and validation logic (CI). (`#1690`)
 - Fixed bot workflow runtime failure caused by strict `FAILED_WORKFLOW_NAME` validation. (`#1690`)
 - Reverted PR #1739 checking assignment counts
 - chore: update step-security/harden-runner from 2.14.1 to 2.14.2 in a workflow
