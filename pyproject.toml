@@ -73,8 +73,8 @@ build-backend = "pdm.backend"
 version_scheme = "python-simplified-semver"
 local_scheme = "dirty-tag"
 
-[tool.pdm]
-version = { source = "scm" }
+[tool.pdm.version]
+source = "scm"
 version_format = "{version}"  # normalize SCM version 
 
 [tool.pdm.build]
