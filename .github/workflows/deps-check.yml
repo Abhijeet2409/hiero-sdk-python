@@ -47,7 +47,7 @@ jobs:
 
       - name: Install minimum dependencies and tooling
         run: |
-          uv sync --all-extras --resolution=lowest-direct
+          uv sync --all-extras --resolution=lowest-direct --no-editable
 
       - name: Show resolved core dependency versions
         run: |
