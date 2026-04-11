@@ -12,7 +12,7 @@ A Python SDK for interacting with the Hedera Hashgraph platform.
 
 ## Quick Start
 
-### Installing from PyPI
+### Installing from PyPI 
 
 ```bash
 pip install --upgrade pip
