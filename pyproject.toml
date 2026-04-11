@@ -71,11 +71,10 @@ build-backend = "pdm.backend"
 
 [tool.setuptools_scm]
 version_scheme = "python-simplified-semver"
-local_scheme = "dirty-tag"
+local_scheme = "no-local-version"
 
 [tool.pdm.version]
 source = "scm"
-version_format = "{version}"  # normalize SCM version 
 
 [tool.pdm.build]
 package-dir = "src"
