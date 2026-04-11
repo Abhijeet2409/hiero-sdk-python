@@ -75,6 +75,7 @@ local_scheme = "dirty-tag"
 
 [tool.pdm]
 version = { source = "scm" }
+version_format = "{version}"  # normalize SCM version 
 
 [tool.pdm.build]
 package-dir = "src"
